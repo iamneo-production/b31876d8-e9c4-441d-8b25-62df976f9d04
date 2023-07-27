@@ -1,0 +1,299 @@
+header {
+  background-color: #174d56;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  opacity: 0.9;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.move{
+position: absolute;
+right: 3rem;
+}
+nav ul {
+display: flex;
+gap: 3rem;
+}
+
+nav li {
+  display: inline-block;
+  /* margin-right: 20px; */
+  margin-top:0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  position: relative;
+  /* margin-left: 130px; */
+  font-style: italic;
+}
+
+nav a:hover {
+  background-color: #0e838b;
+}
+
+.logo img {
+  width: 100px;
+  height: 90px;
+  border-radius: 30px;
+}
+
+.login {
+  float: right;
+}
+
+.signup {
+  float: right;
+  margin-left: 50px;
+}
+
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  background-color: #154d52;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.dashboard {
+  margin-top: 40px;
+}
+
+.back
+{
+  background-image: url("https://res.cloudinary.com/dunzdwo0h/image/upload/v1689051992/a8_jixapk.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  font-style: italic;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  border-radius: 20px;
+}
+
+.card {
+  width: 4000px;
+  min-height: 300px;
+  background-color: #e8e5e5;
+  margin-right: 30px;
+  border-radius: 10px;
+  margin-top: 50%;
+  scroll-snap-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #0f4642;
+  box-shadow: 0 0 5px rgb(242, 242, 242);
+  transition: transform 0.3s ease-in-out;
+  background-image: url("https://res.cloudinary.com/dunzdwo0h/image/upload/v1689170811/PF_-_Fitness_cycles_vncshc.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card-container {
+display: flex;
+flex-wrap: nowrap;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+border-radius: 60px;
+}
+
+.card1 {
+width: 3000px;
+min-height: 300px;
+background-color: #f0f0f0;
+margin-right: 30px;
+border-radius: 10px;
+margin-top: 50%;
+scroll-snap-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: #0f4642;
+box-shadow: 0 0 5px rgb(255, 255, 255);
+transition: transform 0.3s ease-in-out;
+background-image: url("https://res.cloudinary.com/dunzdwo0h/image/upload/v1689154237/boy_r5zc0j.gif");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.card1:hover {
+transform: scale(1.05);
+}
+.card-container {
+display: flex;
+flex-wrap: nowrap;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+border-radius: 20px;
+margin-top: 20%;
+}
+
+.card2 {
+width: 3000px;
+min-height: 300px;
+background-color: #f0f0f0;
+margin-right: 30px;
+border-radius: 10px;
+margin-top: 50%;
+scroll-snap-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: #0f4642;
+box-shadow: 0 0 5px rgb(255, 255, 255);
+transition: transform 0.3s ease-in-out;
+background-image: url("https://res.cloudinary.com/dunzdwo0h/image/upload/v1689171014/Manage_your_time_manage_your_future_epngoi.gif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.card2:hover {
+transform: scale(1.05);
+}
+.card-container {
+display: flex;
+flex-wrap: nowrap;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+border-radius: 20px;
+}
+
+.card3 {
+width: 3000px;
+min-height: 300px;
+background-color: #f0f0f0;
+margin-right: 30px;
+border-radius: 10px;
+margin-top: 10%;
+margin-bottom: 50%;
+scroll-snap-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: #0f4642;
+box-shadow: 0 0 5px rgb(255, 255, 255);
+transition: transform 0.3s ease-in-out;
+background-image: url("https://res.cloudinary.com/dunzdwo0h/image/upload/v1689171759/Just_talking_mapgn4.gif");
+background-size:cover;
+background-repeat: no-repeat;
+}
+
+.card3:hover {
+transform: scale(1.05);
+}
+.card1-container {
+display: flex;
+flex-wrap: nowrap;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+border-radius: 20px;
+}
+
+.card4 {
+width: 3000px;
+min-height: 300px;
+background-color: #f0f0f0;
+margin-right: 30px;
+border-radius: 10px;
+margin-top: 10%;
+margin-bottom: 50%;
+scroll-snap-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: #0f4642;
+box-shadow: 0 0 5px rgb(255, 255, 255);
+transition: transform 0.3s ease-in-out;
+background-image: url("https://res.cloudinary.com/dunzdwo0h/image/upload/v1689156785/sales_gif_puy6ly.gif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.card4:hover {
+transform: scale(1.05);
+}
+.card1-container {
+display: flex;
+flex-wrap: nowrap;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+border-radius: 20px;
+}
+
+.card5 {
+width: 3000px;
+min-height: 300px;
+background-color: #f0f0f0;
+margin-right: 30px;
+border-radius: 10px;
+margin-top: 10%;
+margin-bottom: 50%;
+scroll-snap-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: #0f4642;
+box-shadow: 0 0 5px rgb(255, 255, 255);
+transition: transform 0.3s ease-in-out;
+background-image: url("https://res.cloudinary.com/dunzdwo0h/image/upload/v1689170633/Life_Science_Hub_Wales_-_Hospital_illo_hmpmhk.gif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.card5:hover {
+transform: scale(1.05);
+}
+.foot
+{
+  margin-bottom: 90%;
+}
